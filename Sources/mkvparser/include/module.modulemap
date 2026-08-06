@@ -3,6 +3,7 @@ module mkvparser {
 
 	header "mkvparser/mkvparser.h"
 	header "mkvparser/mkvreader.h"
+	header "common/webmids.h"
 
 	export *
 }
