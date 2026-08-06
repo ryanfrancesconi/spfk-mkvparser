@@ -1,0 +1,8 @@
+module mkvparser {
+	requires cplusplus17
+
+	header "mkvparser/mkvparser.h"
+	header "mkvparser/mkvreader.h"
+
+	export *
+}
