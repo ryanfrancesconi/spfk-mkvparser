@@ -5,8 +5,9 @@ packaged for Swift Package Manager. Only `mkvparser` and `common/webmids.h` are 
 Swift API. [spfk-matroska](https://github.com/ryanfrancesconi/spfk-matroska) is the Swift layer
 over it.
 
-The vendored files are unmodified from upstream. `upstream_revision.h` records the libwebm commit
-they come from.
+The current upstream base is libwebm commit **6184f4484a826724b5293837134ab9492261b941** (nearest
+tag `libwebm-1.0.0.32`), tracked via `SPFK_MKVPARSER_UPSTREAM_REVISION` in `upstream_revision.h`.
+The vendored files are unmodified from upstream.
 
 ## License
 
